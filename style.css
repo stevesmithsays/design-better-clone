@@ -1,0 +1,97 @@
+/* ********** SITE-WIDE ******************* */ 
+
+html{
+    background-color: #0C24C5;
+    font-family: aktiv-grotesk, sans-serif;
+}
+
+p{
+    font-size: 16px;
+} 
+
+/************ HEADER THANGS ******************/
+.site-header{
+    background-color:grey;
+    height: 100px;
+}
+.site-header li{
+    color: white;
+    list-style: none;
+    display: inline-block;
+}
+
+.button-wrap{
+    margin: 15px;
+    background-color: green;
+    height: 10px;
+    position: relative;
+    float: right;
+}
+
+ .sub-button{
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 100rem;
+    padding: 18px 39px;
+    font-size: 14px;
+}
+.sub-button:hover{
+  background: #0C24C5;
+  color: white;
+} 
+/******************** NAV THANGS *************/
+
+.site-nav ul {
+    margin: auto, 0;
+    position: relative;
+    top: 30px;
+    text-align: center;  
+}
+.site-nav a{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+}
+
+
+
+
+/************* MAIN THANGS *******************/
+
+.main-sect{
+    height: 50%;
+    position: relative;
+    top: 30%;
+    background-color: aqua;
+}
+
+.header-tag{
+    margin: 140px auto;
+    position: relative;
+    top: 35%;
+    background-color: green;
+    text-align: center;
+    border: 2px solid white;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    max-width: 80%;
+    margin: 0 auto;
+    background-color: orange;
+    text-transform: capitalize;
+}
+.content-box{
+    background-color: tan;
+    padding: 10px;
+    position: relative;
+    max-width: 50%;
+    margin: 0 auto;
+}
+.content-box, p{
+    text-align: center;
+}
